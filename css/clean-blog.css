@@ -399,3 +399,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+.navbar .navbar-header,
+    .navbar-collapse {
+        float:none;
+        display:inline-block;
+        vertical-align: top;
+    }
