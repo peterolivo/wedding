@@ -337,7 +337,8 @@ img::-moz-selection {
 }
 #main {
   webkit-tap-highlight-color: #0085a1;
-  max-width: 900px;
+  background-color: #A9A9A9;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
