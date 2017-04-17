@@ -61,11 +61,13 @@ hr.small {
   float:none;
   display:inline-block;
   vertical-align: top;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -138,6 +140,7 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+
 .intro-header {
   background-color: #808080;
   background: no-repeat center center;
@@ -335,9 +338,3 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-.navbar .navbar-header,
-    .navbar-collapse {
-        float:none;
-        display:inline-block;
-        vertical-align: top;
-    }
