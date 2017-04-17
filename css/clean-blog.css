@@ -249,10 +249,10 @@ footer .copyright {
 }
 @media (max-width: 767px) {
        img{
-        -moz-transform:rotate(90deg);
-       -webkit-transform:rotate(90deg);
-       -ms-transform:rotate(90deg);
-       transform: rotate(90deg);
+        -moz-transform:rotate(270deg);
+       -webkit-transform:rotate(270deg);
+       -ms-transform:rotate(270deg);
+       transform: rotate(270deg);
        }
    }
 .btn {
