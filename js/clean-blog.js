@@ -30,9 +30,9 @@ $(function() {
                 type: "POST",
                 data: {
                     name: name,
-                    phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    rsvp: rsvp
                 },
                 dateType: "json"
                 cache: false,
