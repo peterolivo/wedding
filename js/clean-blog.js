@@ -4,6 +4,26 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+ $(document).ready(function() {
+
+  function imageresize() {
+    var contentwidth = $('#content').width();
+    if ((contentwidth) < '960'){
+      $('.imageclass').attr('src','us2-960px.jpg');
+    } else {
+      $('.imageclass').attr('src','us2-1260px.jpg');
+    }
+  }
+
+  imageresize(); //Activates when document first loads
+
+  $(window).bind("resize", function(){
+    imageresize();
+  });
+ });
+
+
 // Contact Form Scripts
 
 $(function() {

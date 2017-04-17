@@ -247,17 +247,17 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
 }
-@media (min-device-width:320px) {
-        img[data-src-960px] {
-            content: attr(data-src-960px, url);
-        }
-    }
+@media (min-width:320px) {
+      img[data-src-960px] {
+          content: attr(data-src-960px, url);
+      }
+  }
 
-    @media (min-device-width:960px) {
-        img[data-src-1260px] {
+@media (mine-width:960px) {
+      img[data-src-1260px] {
             content: attr(data-src-1260px, url);
-        }
-    }
+      }
+  }
 .btn {
   font-family: "Futura", "Futura-Medium", "Futura Medium", "Raleway", sans-serif;
   text-transform: uppercase;
