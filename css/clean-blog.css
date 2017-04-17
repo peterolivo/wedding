@@ -154,7 +154,7 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 100px 0 20px;
   color: black;
 }
 @media only screen and (min-width: 768px) {
@@ -199,7 +199,7 @@ hr.small {
 .intro-header .post-heading .subheading {
   font-family: font-family: "Futura", "Futura-Medium", "Futura Medium", "Raleway", sans-serif;
   font-size: 24px;
-  margin: 10px 0 30px;
+  margin: 10px 0 20px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
@@ -292,11 +292,4 @@ img::-moz-selection {
   webkit-tap-highlight-color: #0085a1;
   margin-left: auto;
   margin-right: auto;
-}
-
-.other {
-  min-height: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
 }
