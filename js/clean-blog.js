@@ -34,6 +34,7 @@ $(function() {
                     email: email,
                     message: message
                 },
+                dateType: "json"
                 cache: false,
                 complete: function() {
                     // Success message
