@@ -247,7 +247,14 @@ footer .copyright {
   text-align: center;
   margin-bottom: 0;
 }
-
+@media (max-width: 767px) {
+       img{
+        -moz-transform:rotate(-90deg);
+       -webkit-transform:rotate(-90deg);
+       -ms-transform:rotate(-90deg);
+       transform: rotate(-90deg);
+       }
+   }
 .btn {
   font-family: "Futura", "Futura-Medium", "Futura Medium", "Raleway", sans-serif;
   text-transform: uppercase;
