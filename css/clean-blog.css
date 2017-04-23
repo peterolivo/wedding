@@ -92,6 +92,7 @@ hr.small {
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   }
   .navbar-custom .nav li a {
     color: black;
@@ -288,4 +289,12 @@ img::-moz-selection {
 
 .mapbox {
   align-content: center;
+}
+
+#hash {
+  padding-top:25px;
+}
+
+.bottom {
+  padding-bottom: 800px;
 }
