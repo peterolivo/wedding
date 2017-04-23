@@ -46,7 +46,6 @@ hr.small {
   box-shadow:0px 0px 7px #000000;
 }
 .navbar-custom {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -79,7 +78,7 @@ hr.small {
 }
 
 .navbar-default {
-  background-color: white;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
@@ -284,7 +283,7 @@ img::-moz-selection {
 .justified {
   position:absolute;
   top: 4px;
-  left: 30%;
+  left: 28%;
 }
 
 .mapbox {
