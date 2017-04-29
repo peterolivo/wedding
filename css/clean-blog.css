@@ -44,10 +44,8 @@ hr.small {
 .navbar-custom {
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 3;
   border-color: transparent;
-  text-align: right;
 }
 
 .navbar-custom .navbar-brand {
@@ -90,6 +88,16 @@ hr.small {
 }
 
 @media only screen and (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-top: -18px;
+  }
+  .navbar .navbar-collapse {
+      text-align: center;
+  }
+
   .intro-header .site-heading,
   .intro-header .page-heading {
     padding: 50px 0;
