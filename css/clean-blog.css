@@ -41,6 +41,12 @@ hr.small {
   border-color: white;
 }
 
+ul > li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
 .navbar-custom {
   top: 0;
   left: 0;
